@@ -7,7 +7,6 @@ about:
     #- icon: twitter
     #  text: Twitter
     #  href: https://twitter.com/mcbwrs
-    - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/sean-fronczak/
     - icon: github
