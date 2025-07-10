@@ -10,7 +10,7 @@ project:
     port: 7777
 
 website:
-  title: "quarto-blog"
+  title: "Seanczak"
   site-url:  https://randomrealizations.com/
   description: "A blog about data science, statistics, machine learning, and the scientific method"
   favicon: "favicon-wbg.png"
@@ -25,35 +25,26 @@ website:
     image-alt: "circle painted by hand in a single brush stroke"
     image-width: 1200
     image-height: 630
-    title: "Random Realizations"
-    description: "A blog about data science, statistics, machine learning, and the scientific method"
+    title: "Seanczak blog"
+    description: "this is sean's stats blog"
   navbar:
     background: dark
-    logo: logo.png
+    # logo: logo.png
     right:
       - text: About
         href: about.qmd
-      - text: Archive
-        href: archive.qmd
-      - text: Series
-        menu:
-          - text: Gradient Boosting Series
-            href: gradient-boosting-series.qmd
       - text: Resources
         menu:
           - text: Python-Bloggers
             href: https://python-bloggers.com/
           
     tools:
-      - icon: github
-        href: https://github.com/mcb00
-        text: Matt on Github
-      - icon: twitter
-        href: https://twitter.com/mcbwrs
-        text: Matt on Twitter
       - icon: linkedin
-        href: https://www.linkedin.com/in/matt-bowers
-        text: Matt on Linkedin
+        text: Sean on LinkedIn
+        href: https://www.linkedin.com/in/sean-fronczak/
+      - icon: github
+        text: Sean on Github
+        href: https://github.com/seanczak
 format:
   html:
     theme: yeti # zephyr
